@@ -68,7 +68,7 @@ Note: You use `%1` to dereference the first parameter passed into the batch file
 
 In this example, I am `echo`-ing (printing) information into the CMD terminal the batch file opens to provide status to the user.
 
-Then, in the line that starts with `C:\Users\...`, I am actually calling the program with the full path to the exe and the drop path that was passed in; however, I am dereferncing the exe file name with `%app% and the drop path with `%1`. Dereferencing means pull out the values from those variables and put them in the line where the dereference occurs, replacing the dereference expression.
+Then, in the line that starts with `C:\Users\...`, I am actually calling the program with the full path to the exe and the drop path that was passed in; however, I am dereferncing the exe file name with `%app%` and the drop path with `%1`. Dereferencing means pull out the values from those variables and put them in the line where the dereference occurs, replacing the dereference expression.
 
 So, that `C:` line dereferences to `C:\Users\chuck\.local\bin\tims_invoice_transformer.exe "C:\Users\chuck\Documents\invoice_to_process.xlsx"`. (see below)
 
