@@ -98,7 +98,7 @@ Now click on that file and drag it (the path) over to the desktop and drop it on
 
 ### CMD Pops Up
 
-The drop should invoke the batch file, where it will process the variables and call the commands in it. In our case, we send some info to the user via the CMD window to give them processing info, then we call the program with the dropped argument, then the program we called prints some status info to the CMD window, then the fact that we included `pause` at the end of our batch file makes the CMD window wait and not close until we hit a key. This gives the program time to run and gives us time to read the info before it closes.
+The drop should invoke the batch file, where it will process the variables and call the commands in it. In our case, we send some info (echo) to the user via the CMD window to give them processing info, then we call the program with the dropped argument, then the program we called prints some status info to the CMD window, then the fact that we included `pause` at the end of our batch file makes the CMD window wait and not close until we hit a key. This gives the program time to finish and gives us time to read the status info before the window closes.
 
 <p align="center"><img src="images/9_drag_file_path_and_drop_on_bat_file.png" width="400" /></p>
 
